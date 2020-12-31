@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  text-decoration: none ;
+}
+
+:root {
+  --color-white: #fff;
+  --color-purple: #6617e6b4;
+  --color-bgch:#FBDFDB;
+  --color-hover: #58e999be;
+  --color-bgc: #131212;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  /* margin: 0  auto; */
+  background-color: var(--color-white);
+  /* text-align: center; */
+  max-width: 940px;
+  /* position: relative; */
+
+}
+
+header {
+  display: flex;
+  align-items: center; 
+  margin-top: 36px;
+  margin: 36px 50% ;
+}
+
+header img {
+    margin-right: 122.4px; 
+    /* margin: auto 50%;     */
+}
+
+header a{
+  color: var(--color-bgc);
+  margin-right: 30px;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+body main{
+  margin: auto 50%;
+}
+
+.wrapper {
+  width: 940px;
+  background-color: var(--color-bgch);
+  border-radius: 30px;
+  padding: 40px;
+  margin: 30px auto 50px;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+}
+
+.chef {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 250px;
+  margin: auto;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  align-items: center;
+  margin: auto;
+}
+
+.content h1{
+  font-size: 32px;
+  line-height: 42px;
+  
+}
+
+.content p{
+  font-size: 18px;
+  line-height: 28px;
+  margin-top: 10px;
+}
+
+#more_access {
+  font-size: 24px;
+  line-height:34px;
+  margin-bottom: 20px;
+}
+
+.cards{
+  max-width: 940px;
+  margin: 0 auto 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.card {
+  border-radius: 16px;
+  padding: 16px;
+  /* position: relative;   */
+  cursor: pointer;
+  /* height: 140px; */
+  width: 300px
+  
+}
+
+.card__image img {
+  width: 100%;
+  border-radius: 16px;
+  margin-bottom: 20px;  
+}
+
+.card__content {
+  color: #111111;
+  font-size: 18px;
+}
+
+.card__info p {
+  color: #777777;
+  font-size: 14px;
+}
+
+body footer p{ 
+  position: absolute;
+  /* bottom: 0; */
+  background: #EEEEEE;
+  width: 100vw;
+  padding: 20px 0;
+  text-align: center;
+  color: #999999;
+}
+
