@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  text-decoration: none ;
+}
+
+header {
+  /* display: flex; */
+  margin: 35px auto;
+  text-align: center;  
+}
