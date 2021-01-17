@@ -42,8 +42,14 @@ header a {
   line-height: 26px;
 }
 
+html,
+body {
+  min-height: 100vh;
+  position: relative;
+}
+
 #about {
-  font-weight: bold;
+  font-weight: bold;      
 }
 
 .wrapper {
